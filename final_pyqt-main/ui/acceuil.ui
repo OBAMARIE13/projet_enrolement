@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>771</width>
+      <height>561</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-image: url(:/newPrefix/assets/image/seasonal-6.jpg);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>210</x>
+      <y>40</y>
+      <width>371</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border : 3px solid gray;
+font-size : 30px;
+color : blue;
+border-radius : 6px;</string>
+    </property>
+    <property name="text">
+     <string>Enregistrements</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_regist">
+    <property name="geometry">
+     <rect>
+      <x>73</x>
+      <y>400</y>
+      <width>161</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+border-radius : 15px solid white;
+border : none;
+color : white;
+background-color : rgb(149, 206, 255);
+color: white;
+font-size : 20px;
+}
+QPushButton:hover{
+background-color : rgb(56, 217, 199);
+}</string>
+    </property>
+    <property name="text">
+     <string>S'enroler</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_liste">
+    <property name="geometry">
+     <rect>
+      <x>560</x>
+      <y>400</y>
+      <width>161</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+border-radius : 15px solid white;
+border : none;
+color : white;
+background-color : rgb(149, 206, 255);
+color: white;
+font-size : 20px;
+}
+QPushButton:hover{
+background-color : rgb(56, 217, 199);
+}</string>
+    </property>
+    <property name="text">
+     <string>Voir la liste</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources>
+  <include location="../images.qrc"/>
+ </resources>
+ <connections/>
+</ui>

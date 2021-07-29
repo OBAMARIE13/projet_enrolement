@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>718</width>
+    <height>460</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>20</y>
+     <width>691</width>
+     <height>421</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border : 1px solid black;
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>150</y>
+     <width>181</width>
+     <height>211</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border : 1px solid black;
+background-image : url(:/newPrefix/assets/image/161085384_4028971917170348_1595544585493431467_n.jpeg)</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>../assets/image/161085384_4028971917170348_1595544585493431467_n.jpeg</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>140</x>
+     <y>30</y>
+     <width>431</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border: 1px solid black;
+border-radius : 15px;
+color : blue;
+font-size : 37px;
+</string>
+   </property>
+   <property name="text">
+    <string>Carte D'Identité Française</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="nom_identity">
+   <property name="geometry">
+    <rect>
+     <x>240</x>
+     <y>160</y>
+     <width>121</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border : 1px solid black;
+border-radius : 15px;
+font-size : 20px</string>
+   </property>
+   <property name="text">
+    <string>nom</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_8">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>30</y>
+     <width>101</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-image : url(:/newPrefix/assets/image/france.jpeg);
+border-radius : 15px;
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap resource="../images.qrc">:/newPrefix/assets/image/france.jpeg</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_9">
+   <property name="geometry">
+    <rect>
+     <x>580</x>
+     <y>30</y>
+     <width>101</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-image :url(:/newPrefix/assets/image/france_flag.png);
+border-radius : 15px;
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap resource="../images.qrc">:/newPrefix/assets/image/france_flag.png</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="nom_identity_2">
+   <property name="geometry">
+    <rect>
+     <x>460</x>
+     <y>160</y>
+     <width>121</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border : 1px solid black;
+border-radius : 15px;
+font-size : 20px</string>
+   </property>
+   <property name="text">
+    <string>Prénom</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="nom_identity_3">
+   <property name="geometry">
+    <rect>
+     <x>240</x>
+     <y>250</y>
+     <width>171</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border : 1px solid black;
+border-radius : 15px;
+font-size : 20px</string>
+   </property>
+   <property name="text">
+    <string>Date de Naissance</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="nom_identity_4">
+   <property name="geometry">
+    <rect>
+     <x>460</x>
+     <y>250</y>
+     <width>171</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border : 1px solid black;
+border-radius : 15px;
+font-size : 20px</string>
+   </property>
+   <property name="text">
+    <string>Lieu de naissance</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="nom_identity_5">
+   <property name="geometry">
+    <rect>
+     <x>240</x>
+     <y>330</y>
+     <width>121</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border : 1px solid black;
+border-radius : 15px;
+font-size : 20px</string>
+   </property>
+   <property name="text">
+    <string>Domicile</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="nom_identity_6">
+   <property name="geometry">
+    <rect>
+     <x>460</x>
+     <y>330</y>
+     <width>121</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border : 1px solid black;
+border-radius : 15px;
+font-size : 20px</string>
+   </property>
+   <property name="text">
+    <string>Genre</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="nom_identity_7">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>380</y>
+     <width>121</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border : 1px solid black;
+border-radius : 15px;
+font-size : 20px</string>
+   </property>
+   <property name="text">
+    <string>Nationnalité</string>
+   </property>
+  </widget>
+ </widget>
+ <resources>
+  <include location="../images.qrc"/>
+ </resources>
+ <connections/>
+</ui>

@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>813</width>
+    <height>528</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">border-color: rgb(177, 177, 177);</string>
+  </property>
+  <widget class="QLabel" name="search">
+   <property name="geometry">
+    <rect>
+     <x>360</x>
+     <y>90</y>
+     <width>51</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-right:1px solid rgb(171, 171, 171);
+border-left:1px solid white;
+border-top:1px solid rgb(171, 171, 171);
+border-bottom:1px solid rgb(171, 171, 171);
+
+padding:1px;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap resource="../images.qrc">:/newPrefix/assets/image/téléchargement.png</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>20</y>
+     <width>581</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font-size : 20px solid gray;
+border: 5px solid gray;</string>
+   </property>
+   <property name="text">
+    <string>Liste des Enrolés</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="search_label">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>90</y>
+     <width>261</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-right:1px solid white;
+border-left:1px solid rgb(171, 171, 171);
+border-top:1px solid rgb(171, 171, 171);
+border-bottom:1px solid rgb(171, 171, 171);
+</string>
+   </property>
+   <property name="placeholderText">
+    <string>Recherche</string>
+   </property>
+  </widget>
+  <widget class="QTableWidget" name="tableWidget">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>190</y>
+     <width>611</width>
+     <height>281</height>
+    </rect>
+   </property>
+   <column>
+    <property name="text">
+     <string>ID</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>nom</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>prenom</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>date</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>lieu</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>domicile</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>nationnalité</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>genre</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>nom du père</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>nom de la mère</string>
+    </property>
+   </column>
+  </widget>
+  <widget class="QPushButton" name="btn_search">
+   <property name="geometry">
+    <rect>
+     <x>430</x>
+     <y>90</y>
+     <width>121</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-radius : 5px solid black;
+color : blue;
+font-size : 20px;
+border : none;
+background-color : white;</string>
+   </property>
+   <property name="text">
+    <string>Rechercher</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_carte">
+   <property name="geometry">
+    <rect>
+     <x>640</x>
+     <y>190</y>
+     <width>121</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-radius : 5px solid black;
+color : blue;
+font-size : 20px;
+border : none;
+background-color : white;</string>
+   </property>
+   <property name="text">
+    <string>carte id</string>
+   </property>
+  </widget>
+ </widget>
+ <resources>
+  <include location="../images.qrc"/>
+ </resources>
+ <connections/>
+</ui>
